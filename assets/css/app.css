@@ -3572,12 +3572,13 @@ body.error-page .display-1 {
 
 .error-page .error-page-item {
   font-size: 14rem;
+  color: #183153;
   line-height: 14rem;
   margin-left: -2rem;
   text-shadow: -5px 1px 0px white;
 }
 
-.error-page .error-page-item:nth-child(2) {
+.error-page .error-page-item:nth-child(2) { 
   -webkit-transform: translate(0, 10px);
           transform: translate(0, 10px);
   display: inline-block;
