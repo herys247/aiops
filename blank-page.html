@@ -43,7 +43,7 @@
     <div class="header-body">
         <div class="header-body-left">
             <div class="page-title">
-                <h4>Starter Page</h4>
+                
             </div>
         </div>
         <div class="header-body-right">
@@ -94,15 +94,14 @@
                                     <a href="#" class="list-group-item d-flex align-items-center hide-show-toggler">
                                         <div>
                                             <figure class="avatar mr-2">
-                                                <span
-                                                    class="avatar-title bg-success-bright text-success rounded-circle">
-                                                    <i class="ti-user"></i>
+                                                <span class="avatar-title bg-danger-bright text-danger rounded-circle">
+                                                    <i class="ti-server"></i>
                                                 </span>
                                             </figure>
                                         </div>
                                         <div class="flex-grow-1">
                                             <p class="mb-0 line-height-20 d-flex justify-content-between">
-                                                New customer registered
+                                                Node Load High
                                                 <i title="Mark as read" data-toggle="tooltip"
                                                    class="hide-show-toggler-item fa fa-circle-o font-size-11"></i>
                                             </p>
@@ -119,13 +118,13 @@
                                             <figure class="avatar mr-2">
                                                 <span
                                                     class="avatar-title bg-warning-bright text-warning rounded-circle">
-                                                    <i class="ti-package"></i>
+                                                    <i class="ti-layout-grid2"></i>
                                                 </span>
                                             </figure>
                                         </div>
                                         <div class="flex-grow-1">
                                             <p class="mb-0 line-height-20 d-flex justify-content-between">
-                                                New Order Recieved
+                                                Data Source Error
                                                 <i title="Mark as unread" data-toggle="tooltip"
                                                    class="hide-show-toggler-item fa fa-check font-size-11"></i>
                                             </p>
@@ -219,19 +218,6 @@
                                 </li>
                                 <li class="list-group-item">
                                     <div class="custom-control custom-switch">
-                                        <input type="checkbox" class="custom-control-input" id="customSwitch4" checked>
-                                        <label class="custom-control-label" for="customSwitch4">Hide menus</label>
-                                    </div>
-                                </li>
-                                <li class="list-group-item">
-                                    <div class="custom-control custom-switch">
-                                        <input type="checkbox" class="custom-control-input" id="customSwitch5">
-                                        <label class="custom-control-label" for="customSwitch5">Remember next
-                                            visits</label>
-                                    </div>
-                                </li>
-                                <li class="list-group-item">
-                                    <div class="custom-control custom-switch">
                                         <input type="checkbox" class="custom-control-input" id="customSwitch6">
                                         <label class="custom-control-label" for="customSwitch6">Enable report
                                             generation.</label>
@@ -254,13 +240,6 @@
                     </a>
                     <div class="dropdown-menu dropdown-menu-right">
                         <a href="#" class="dropdown-item">Profile</a>
-                        <a href="#" class="dropdown-item d-flex">
-                            Followers <span class="text-muted ml-auto">214</span>
-                        </a>
-                        <a href="#" class="dropdown-item d-flex">
-                            Inbox <span class="text-muted ml-auto">18</span>
-                        </a>
-                        <a href="#" class="dropdown-item" data-sidebar-target="#settings">Billing</a>
                         <a href="#" class="dropdown-item" data-sidebar-target="#settings">Need help?</a>
                         <a href="#" class="dropdown-item text-danger" data-sidebar-target="#settings">Sign Out!</a>
                     </div>
@@ -291,53 +270,29 @@
     <div class="horizontal-navigation">
         <ul>
             <li>
-                <a  href="#">
+                <a class="active" href="#">
                     <i class="nav-icon" data-feather="bar-chart-2"></i> Dashboards
                 </a>
                 <ul>
                     <li>
-                        <a  href="dashboards-one.html">Ecommerce</a></li>
+                        <a  href="#">Dashboard 1</a></li>
                     <li>
-                        <a  href="dashboards-two.html">Analytics</a></li>
+                        <a  href="#">Dashboard 2</a></li>
                     <li>
-                        <a  href="dashboards-three.html">Projects</a></li>
+                        <a  href="#">Dashboard 3</a></li>
                     <li>
-                        <a  href="dashboards-widget.html">Widgets</a></li>
+                        <a  href="#">Dashboard 4</a></li>
                 </ul>
             </li>
             <li>
                 <a  href="#">
-                    <i class="nav-icon" data-feather="command"></i> Apps  <span class="badge badge-danger">New</span>
+                    <i class="nav-icon" data-feather="pie-chart"></i>DQ Consolidate
                 </a>
-                <ul>
-                    <li>
-                        <a  href="apps-chat.html">
-                            <span>Chat</span>
-                            <span class="badge badge-danger">5</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a  href="apps-inbox.html">
-                            <span>Mail</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a  href="apps-todo.html">
-                            <span>Todo</span>
-                            <span class="badge badge-warning">2</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a  href="apps-file-manager.html">
-                            <span>File Manager</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a  href="apps-calendar.html">
-                            <span>Calendar</span>
-                        </a>
-                    </li>
-                </ul>
+            </li>
+            <li>
+                <a  href="#">
+                    <i class="nav-icon" data-feather="activity"></i>AI/ML Dashboard
+                </a>
             </li>
             <li>
                 <a href="#">
@@ -377,19 +332,6 @@
                                 <a  href="elements-basic-tooltip.html">Tooltip</a></li>
                             <li>
                                 <a  href="elements-basic-popovers.html">Popovers</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#">Cards</a>
-                        <ul>
-                            <li>
-                                <a  href="elements-card-basic.html">Basic Cards </a></li>
-                            <li>
-                                <a  href="elements-card-image.html">Image Cards </a></li>
-                            <li>
-                                <a  href="elements-card-scroll.html">Card Scroll </a></li>
-                            <li>
-                                <a  href="elements-card-other.html">Others </a></li>
                         </ul>
                     </li>
                     <li>
@@ -464,15 +406,6 @@
                                 <a  href="elements-chart-peity.html">Peity</a></li>
                         </ul>
                     </li>
-                    <li>
-                        <a href="#">Maps</a>
-                        <ul>
-                            <li>
-                                <a  href="elements-map-google.html">Google</a></li>
-                            <li>
-                                <a  href="elements-map-vector.html">Vector</a></li>
-                        </ul>
-                    </li>
                 </ul>
             </li>
             <li>
@@ -481,44 +414,15 @@
                 </a>
                 <ul>
                     <li><a href="pages-login.html" target="_blank">Login</a></li>
-                    <li><a href="pages-register.html" target="_blank">Register</a></li>
-                    <li><a href="pages-recovery-password.html" target="_blank">Recovery Password</a></li>
-                    <li><a href="pages-lock-screen.html" target="_blank">Lock Screen</a></li>
-                    <li>
-                        <a  href="pages-profile.html">Profile</a></li>
-                    <li>
-                        <a  href="pages-timeline.html">Timeline</a></li>
-                    <li>
-                        <a  href="pages-invoice.html">Invoice</a></li>
-
-                    <li>
-                        <a  href="pages-pricing-table.html">Pricing Table</a></li>
-
-                    <li>
-                        <a  href="pages-pricing-table.html-2">Pricing Table 2</a></li>
-                    <li>
-                        <a  href="pages-search-result.html">Search Result</a></li>
-                    <li>
-                        <a  href="pages-mailing.html">Mailing</a></li>
                     <li>
                         <a href="#">Error Pages</a>
                         <ul>
                             <li><a href="pages-errors-404.html" target="_blank">404</a></li>
                             <li><a href="pages-errors-503.html" target="_blank">503</a></li>
-                            <li><a href="pages-errors-mean-at-work.html" target="_blank">Mean at Work</a></li>
                         </ul>
                     </li>
                     <li>
-                        <a  href="pages-blank-page-1.html">Starter Pages</a>
-                        <ul>
-                            <li>
-                                <a  class="active"
-                                    href="pages-blank-page-1.html">Layout 1</a></li>
-                            <li>
-                                <a  href="pages-blank-page-2.html">Layout 2</a></li>
-                            <li>
-                                <a  href="pages-blank-page-3.html">Layout 3</a></li>
-                        </ul>
+                        <a  href="blank-page.html">Starter Pages</a>
                     </li>
                     <li>
                         <a href="#">Menu Level</a>
@@ -533,6 +437,21 @@
                             </li>
                         </ul>
                     </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="nav-icon" data-feather="users"></i> Administrator
+                </a>
+                <ul>
+                    <li>
+                        <a  href="#">User Management</a></li>
+                    <li>
+                        <a  href="#">Role Management</a></li>
+                    <li>
+                        <a  href="#">Menu Management</a></li>
+                    <li>
+                        <a  href="#">Parameters</a></li>
                 </ul>
             </li>
         </ul>
