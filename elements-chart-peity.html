@@ -268,41 +268,123 @@
 <!-- begin::main -->
 <div id="main">
 
-    <!-- begin::navigation -->
-    <div class="hidden-navigation">
+ <!-- begin::navigation -->
+ <div class="navigation">
+    <div class="navigation-menu-tab">
         <ul>
             <li>
-                <a  href="#">
-                    <i class="nav-icon" data-feather="bar-chart-2"></i> Dashboards
+                <a href="#" data-toggle="tooltip" data-placement="right" title="Dashboards"
+                   data-nav-target="#dashboards">
+                    <i data-feather="bar-chart-2"></i>
                 </a>
+            </li>
+            <li>
+                <a href="#" data-toggle="tooltip" data-placement="right" title="DataQuality"
+                   data-nav-target="#dataquality">
+                    <i data-feather="pie-chart"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#" data-toggle="tooltip" data-placement="right" title="AI/ML Dashboard"
+                   data-nav-target="#aiml">
+                    <i data-feather="activity"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#" data-toggle="tooltip"
+                   data-placement="right" title="Components"
+                   data-nav-target="#components">
+                    <i data-feather="layers"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#" data-toggle="tooltip"
+                   data-placement="right" title="Forms"
+                   data-nav-target="#forms">
+                    <i data-feather="edit-3"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#" data-toggle="tooltip"
+                   data-placement="right" title="Plugins"
+                   data-nav-target="#plugins">
+                    <i data-feather="gift"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#" data-toggle="tooltip"
+                   data-placement="right" title="Pages" data-nav-target="#pages">
+                    <i data-feather="copy"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#" data-toggle="tooltip" data-placement="right" title="Administrator"
+                   data-nav-target="#user">
+                    <i data-feather="users"></i>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="navigation-menu-body">
+        <div class="navigation-menu-group">
+            <div id="dashboards">
                 <ul>
+                    <li class="navigation-divider d-flex align-items-center">
+                        <i class="mr-2" data-feather="bar-chart-2"></i> Dashboards
+                    </li>
                     <li>
-                        <a  href="index.html">Mainframe Dashboard</a></li>
+                        <a  href="index.html">AIOps MainFrame</a></li>
                     <li>
-                        <a  href="#">Dashboard 2</a></li>
+                        <a  href="#">Data Source Quality</a></li>
                     <li>
-                        <a  href="#">Dashboard 3</a></li>
+                        <a  href="#">Nifi Cluster</a></li>
                     <li>
-                        <a  href="#">Dashboard 4</a></li>
+                        <a  href="#">Nifi Process Group</a></li>
+                    <li>
+                        <a  href="#">Flink</a></li>
+                    <li>
+                        <a  href="#">Kafka</a></li>
+                    <li>
+                        <a  href="#">Airflow</a></li>
+                    <li>
+                        <a  href="#">HDFS</a></li>
+                    <li>
+                        <a  href="#">Process TimeLine</a></li>
                 </ul>
-            </li>
-            <li>
-                <a  href="#">
-                    <i class="nav-icon" data-feather="pie-chart"></i>DQ Consolidate
-                </a>
-            </li>
-            <li>
-                <a  href="#">
-                    <i class="nav-icon" data-feather="activity"></i>AI/ML Dashboard
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <i class="nav-icon" data-feather="layers"></i> UI Elements
-                </a>
+            </div>
+            <div id="dataquality">
                 <ul>
+                    <li class="navigation-divider d-flex align-items-center">
+                        <i class="mr-2" data-feather="pie-chart"></i> Data Quality
+                    </li>
                     <li>
-                        <a href="#">Basic</a>
+                        <a  href="3">Dashboard Data Quality 1</a></li>
+                    <li>
+                        <a  href="#">Dashboard Data Quality 2</a></li>
+                    <li>
+                        <a  href="#">Dashboard Data Quality 3</a></li>
+                </ul>
+            </div>
+            <div id="aiml">
+                <ul>
+                    <li class="navigation-divider d-flex align-items-center">
+                        <i class="mr-2" data-feather="activity"></i> AI/ML Dashboard
+                    </li>
+                    <li>
+                        <a  href="3">AI/ML Dashboard 1</a></li>
+                    <li>
+                        <a  href="#">AI/ML Dashboard 2</a></li>
+                    <li>
+                        <a  href="#">AI/ML Dashboard 3</a></li>
+                </ul>
+            </div>
+            <div id="components">
+                <ul>
+                    <li class="navigation-divider d-flex align-items-center">
+                        <i class="mr-2" data-feather="layers"></i> Components
+                    </li>
+                    <li>
+                        <a href="#">Basic Components</a>
                         <ul>
                             <li>
                                 <a  href="elements-basic-alert.html">Alerts</a></li>
@@ -337,52 +419,6 @@
                         </ul>
                     </li>
                     <li>
-                        <a  href="elements-avatar.html">Avatar</a></li>
-                    <li>
-                        <a  href="elements-icons.html">Icons</a></li>
-                    <li>
-                        <a  href="elements-colors.html">Colors</a></li>
-                    <li>
-                        <a href="#">Plugins</a>
-                        <ul>
-                            <li>
-                                <a  href="elements-plugin-sweet-alert.html">Sweet Alert</a></li>
-                            <li>
-                                <a  href="elements-plugin-lightbox.html">Lightbox</a></li>
-                            <li>
-                                <a  href="elements-plugin-toast.html">Toast</a></li>
-                            <li>
-                                <a  href="elements-plugin-tour.html">Tour</a></li>
-                            <li>
-                                <a  href="elements-plugin-slick-slide.html">Slick Slide</a></li>
-                            <li>
-                                <a  href="elements-plugin-nestable.html">Nestable</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#">Forms</a>
-                        <ul>
-                            <li>
-                                <a  href="elements-form-basic.html">Form Layouts</a></li>
-                            <li>
-                                <a  href="elements-form-custom.html">Custom Forms</a></li>
-                            <li>
-                                <a  href="elements-form-advanced.html">Advanced Form</a></li>
-                            <li>
-                                <a  href="elements-form-validation.html">Validation</a></li>
-                            <li>
-                                <a  href="elements-form-wizard.html">Wizard</a></li>
-                            <li>
-                                <a  href="elements-form-file-upload.html">File Upload</a></li>
-                            <li>
-                                <a  href="elements-form-datepicker.html">Datepicker</a></li>
-                            <li>
-                                <a  href="elements-form-timepicker.html">Timepicker</a></li>
-                            <li>
-                                <a  href="elements-form-colorpicker.html">Colorpicker</a></li>
-                        </ul>
-                    </li>
-                    <li>
                         <a href="#">Tables</a>
                         <ul>
                             <li>
@@ -408,13 +444,63 @@
                                 <a class="active" href="elements-chart-peity.html">Peity</a></li>
                         </ul>
                     </li>
+                    <li>
+                        <a  href="elements-avatar.html">Avatar</a></li>
+                    <li>
+                        <a  href="elements-icons.html">Icons</a></li>
+                    <li>
+                        <a  href="elements-colors.html">Colors</a></li>
                 </ul>
-            </li>
-            <li>
-                <a href="#">
-                    <i class="nav-icon" data-feather="copy"></i> Pages
-                </a>
+            </div>
+            <div id="forms">
                 <ul>
+                    <li class="navigation-divider d-flex align-items-center">
+                        <i class="mr-2" data-feather="edit-3"></i> Forms
+                    </li>
+                    <li>
+                        <a  href="elements-form-basic.html">Form Layouts</a></li>
+                    <li>
+                        <a  href="elements-form-custom.html">Custom Forms</a></li>
+                    <li>
+                        <a  href="elements-form-advanced.html">Advanced Form</a></li>
+                    <li>
+                        <a  href="elements-form-validation.html">Validation</a></li>
+                    <li>
+                        <a  href="elements-form-wizard.html">Wizard</a></li>
+                    <li>
+                        <a  href="elements-form-file-upload.html">File Upload</a></li>
+                    <li>
+                        <a  href="elements-form-datepicker.html">Datepicker</a></li>
+                    <li>
+                        <a  href="elements-form-timepicker.html">Timepicker</a></li>
+                    <li>
+                        <a  href="elements-form-colorpicker.html">Colorpicker</a></li>
+                </ul>
+            </div>
+            <div id="plugins">
+                <ul>
+                    <li class="navigation-divider d-flex align-items-center">
+                        <i class="mr-2" data-feather="gift"></i> Plugins
+                    </li>
+                    <li>
+                        <a  href="elements-plugin-sweet-alert.html">Sweet Alert</a></li>
+                    <li>
+                        <a  href="elements-plugin-lightbox.html">Lightbox</a></li>
+                    <li>
+                        <a  href="elements-plugin-toast.html">Toast</a></li>
+                    <li>
+                        <a  href="elements-plugin-tour.html">Tour</a></li>
+                    <li>
+                        <a  href="elements-plugin-slick-slide.html">Slick Slide</a></li>
+                    <li>
+                        <a  href="elements-plugin-nestable.html">Nestable</a></li>
+                </ul>
+            </div>
+            <div id="pages">
+                <ul>
+                    <li class="navigation-divider d-flex align-items-center">
+                        <i class="mr-2" data-feather="copy"></i> Pages
+                    </li>
                     <li><a href="pages-login.html" target="_blank">Login</a></li>
                     <li>
                         <a href="#">Error Pages</a>
@@ -440,12 +526,12 @@
                         </ul>
                     </li>
                 </ul>
-            </li>
-            <li>
-                <a href="#">
-                    <i class="nav-icon" data-feather="users"></i> Administrator
-                </a>
+            </div>
+            <div id="user">
                 <ul>
+                    <li class="navigation-divider d-flex align-items-center">
+                        <i class="mr-2" data-feather="users"></i> Administrator
+                    </li>
                     <li>
                         <a  href="#">User Management</a></li>
                     <li>
@@ -455,10 +541,11 @@
                     <li>
                         <a  href="#">Parameters</a></li>
                 </ul>
-            </li>
-        </ul>
+            </div>
+        </div>
     </div>
-    <!-- end::navigation -->
+</div>
+<!-- end::navigation -->
 
     <!-- begin::main-content -->
     <div class="main-content">
