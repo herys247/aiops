@@ -4077,6 +4077,10 @@ textarea {
   padding: 1.5rem;
 }
 
+.body-chart {
+  padding: 0.1rem !important;
+} 
+
 .card .card-body h1.card-title,
 .app-block .app-content .app-action .card-body h1.card-title,
 .chat-block .card-body h1.card-title,
@@ -4097,7 +4101,7 @@ textarea {
 .chat-block .card-body h6.card-title {
   margin-bottom: 2rem;
   font-size: 1rem;
-  font-weight: normal;
+  font-weight: 600;
 }
 
 .card .card-body h1.card-title .dropdown *,
@@ -7920,6 +7924,25 @@ body.form-membership .form-wrapper hr {
   background-color: rgba(0, 0, 0, 0.03);
 }
 
+/* table color */
+
+.table-crit {
+  background-color: #f2485a;
+  border: 1px solid #7a1b28;
+  color: #ffffff;
+}
+
+.table-warn {
+  background-color: #fd7709;
+  border: 1px solid #b05409;
+  color: #ffffff
+}
+
+.table td, .table th {
+  padding: 0.5rem;
+}
+
+
 .timeline .timeline-item {
   padding-bottom: 20px;
   position: relative;
@@ -8420,7 +8443,7 @@ button.toast-close-button {
 }
 
 .slick-slide-item > * {
-  padding: 10px;
+  padding: 0px;
 }
 
 .slick-center {
@@ -8430,6 +8453,11 @@ button.toast-close-button {
   transition: transform 0.3s, -webkit-transform 0.3s;
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
+}
+
+.slick-slide {
+  height: 210px !important;
+  overflow: auto;
 }
 
 /* the slides */
