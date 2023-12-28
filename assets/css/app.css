@@ -4728,7 +4728,7 @@ a:not(.btn):focus,
 .header form .input-group .input-group-append button.btn:not(.btn):focus,
 .chat-block .chat-sidebar .chat-sidebar-content .list-group .list-group-item.active:not(.btn):focus {
   text-decoration: none !important;
-  color: black;
+  color: #000;
   outline: none;
 }
 
@@ -7125,6 +7125,10 @@ body:not(.dark) .nicescroll-cursors {
   color: #e5131c;
 }
 
+.breadcrumb-item a{
+  color: #000 !important;
+}
+
 .notify .alert {
   border: none;
   box-shadow: 0 2px 10px 0 rgba(24, 28, 33, 0.04);
@@ -7927,7 +7931,7 @@ body.form-membership .form-wrapper hr {
 /* table color */
 
 .table-crit {
-  background-color: #f2485a;
+  background-color: #f2485a !important;
   border: 1px solid #7a1b28;
   color: #ffffff;
 }
@@ -8459,6 +8463,9 @@ button.toast-close-button {
   height: 210px !important;
   overflow: auto;
 }
+
+tr a { color: #AD0404 !important; text-decoration: underline !important; }
+tr:hover a { color: red !important; }
 
 /* the slides */
 
@@ -10123,6 +10130,10 @@ small {
           justify-content: center;
 }
 
+.navigation-toggler a{
+  color: #000 !important;
+}
+
 .header .header-left .navigation-toggler a svg,
 .header .header-left .navigation-toggler form .input-group .input-group-append button.btn svg,
 .header form .input-group .input-group-append .header-left .navigation-toggler button.btn svg,
@@ -10253,6 +10264,7 @@ small {
           align-items: center;
   -webkit-box-pack: center;
           justify-content: center;
+  color: #000;
 }
 
 .header ul.navbar-nav li.nav-item a.nav-link.nav-link-notify,
@@ -12550,6 +12562,9 @@ body.dark.small-navigation .navigation-menu-body ul li.navigation-divider:after 
     display: block;
   }
 
+  .table a{
+    color: red;
+  }
   .navigation {
     width: 75%;
   }

@@ -602,11 +602,11 @@
                                       </thead>
                                       <tbody>
                                         <tr>
-                                          <td>Memory</td>
+                                          <td><a href="" data-toggle="modal" data-target="#example-critical-01">Memory</a></td>
                                           <td>stop some unnecessary job</td>
                                         </tr>
                                         <tr>
-                                          <td>VCore</td>
+                                          <td><a href="" data-toggle="modal" data-target="#example-critical-01">VCore</a></td>
                                           <td>stop some unnecessary job</td>
                                         </tr>
                                       </tbody>
@@ -635,15 +635,15 @@
                                       </thead>
                                       <tbody>
                                         <tr>
-                                          <td>UPCC</td>
+                                          <td><a href="" data-toggle="modal" data-target="#example-critical-01">UPCC</a></td>
                                           <td>Verify the authentication credentials used by the Hive driver,  ensuring that they are ...</td>
                                         </tr>
                                         <tr>
-                                          <td>Second Stream</td>
+                                          <td><a href="" data-toggle="modal" data-target="#example-critical-01">Second Stream</a></td>
                                           <td>Restart Node</td>
                                         </tr>
                                         <tr>
-                                            <td>UPCC</td>
+                                            <td><a href="" data-toggle="modal" data-target="#example-critical-01">UPCC</a></td>
                                             <td>Review the configuration related to the privileged action and connection pool. Ensure ...</td>
                                           </tr>
                                       </tbody>
@@ -794,6 +794,47 @@
             </div>
         </div>
     </div>
+
+
+    <!--Modal for detail info-->
+    <div class="modal fade" id="example-critical-01" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header table-crit">
+              <h5 class="modal-title">Critical</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">×</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                <table class="table table-bordered table-responsive-stack">
+                    <thead class="thead-dark">
+                      <tr>
+                        <th colspan="2">NIFI</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td><strong>Item</strong></td>
+                        <td>UPCC</td>
+                      </tr>
+                      <tr>
+                        <td><strong>Recommendation</strong></td>
+                        <td>Verify the authentication credentials used by the Hive driver, ensuring that they are correct and have the necessary privileges. Check the Hive server logs for more detailed information on the authentication failure. Additionally, review the transport configuration for any misconfigurations that might hinder the connection. If the issue persists, consult the Hive documentation or seek assistance from the system administrator to resolve authentication and transport-related problems.</td>
+                      </tr>
+                      <tr>
+                        <td><strong>Rule Type</strong></td>
+                        <td>AI/ML</td>
+                      </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
 
 
     <!-- begin::footer -->
