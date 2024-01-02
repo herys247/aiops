@@ -4763,6 +4763,7 @@ a.btn:focus,
   padding: 10px 15px;
   line-height: 14px;
   border-radius: 0.5rem;
+  margin-bottom: 7px;
 }
 
 .btn svg {
@@ -4887,8 +4888,8 @@ a.btn[href="#next"]:not(:disabled):not(.disabled):active,
 a.btn[href="#previous"]:not(:disabled):not(.disabled):active,
 .header form .input-group .input-group-append button.btn[href="#previous"]:not(:disabled):not(.disabled):active,
 .chat-block .chat-sidebar .chat-sidebar-content .list-group .btn[href="#previous"].list-group-item.active:not(:disabled):not(.disabled):active {
-  background: #1d7d74;
-  border-color: #1d7d74;
+  background: #B03C4B;
+  border-color: #B03C4B;
 }
 
 .btn.btn-primary:not(:disabled):not(.disabled):focus,
@@ -7932,7 +7933,6 @@ body.form-membership .form-wrapper hr {
 
 .table-crit {
   background-color: #f2485a !important;
-  border: 1px solid #7a1b28;
   color: #ffffff;
 }
 
@@ -8471,6 +8471,21 @@ tr:hover a { color: red !important; }
 
 .slick-slide {
   margin: 0 10px;
+}
+
+.suggest {
+  width: 100%;
+  display: inline-flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.bg-remarks {
+  background: #ffffff url('../media/image/bg-remarks.png') no-repeat bottom right;
+}
+
+.bg-suggest {
+  background: #ffffff url('../media/image/bg-suggest.png') no-repeat bottom right;
 }
 
 /* the parent */
